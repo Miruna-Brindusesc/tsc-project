@@ -3755,7 +3755,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </device>
 </devices>
 </deviceset>
-<deviceset name="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" prefix="SW" library_version="2">
+<deviceset name="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" prefix="SW" library_version="1">
 <gates>
 <gate name="A" symbol="2025-10-22_07-23-44_LIBRARY_SW2" x="0" y="0"/>
 </gates>
@@ -3856,9 +3856,9 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="FRAMES_A3L-LOC" device=""/>
+<part name="FRAME1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="FRAMES_A3L-LOC" device="" value="MIRUNA"/>
 <part name="FRAME2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="FRAMES_A3L-LOC" device="" value="drawn by: Dan Tudose"/>
-<part name="IC1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="BQ25180YBGR_BQ25180YBGR" device="" value="BQ25180YBGR"/>
+<part uuid="0xABCDEF33" name="IC1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="BQ25180YBGR_BQ25180YBGR" device="" value="BQ25180YBGR"/>
 <part name="SUPPLY1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
@@ -3871,8 +3871,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <part name="U1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_4_NRF52840_QF" device="" value="NRF52840_QF"/>
 <part name="C15" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="PERFECT_0402_CAP_0402" device="" value="1uF"/>
 <part name="C16" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="47nF"/>
-<part name="C11" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L"/>
-<part name="C10" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L"/>
+<part name="C11" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="100pF"/>
+<part name="C10" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="N.C."/>
 <part name="SUPPLY6" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="C2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="12pF"/>
@@ -3886,7 +3886,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <part name="SUPPLY10" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY11" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="C22" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="N.C."/>
-<part name="ANT1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="2450AT18B100E_2450AT18B100E" device="" value="2450AT18B100E"/>
+<part uuid="0xABCDEF08" name="ANT1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="2450AT18B100E_2450AT18B100E" device="" value="2450AT18B100E"/>
 <part name="C9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="1pF"/>
 <part name="SUPPLY12" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY13" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
@@ -3904,7 +3904,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <part name="C5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="100nF"/>
 <part name="C17" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="100nF"/>
 <part name="C18" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="100nF"/>
-<part name="U$20" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_1_XTAL_32KHZ" device="" value="32.768kHz"/>
+<part uuid="0xABCDEF31" name="U$20" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_1_XTAL_32KHZ" device="" value="32.768kHz"/>
 <part name="SUPPLY19" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY20" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY21" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
@@ -3915,12 +3915,12 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <part name="C13" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="N.C"/>
 <part name="C12" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="100nF"/>
 <part name="SUPPLY24" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
-<part name="IC9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="RT6160AWSC_RT6160AWSC" device=""/>
+<part uuid="0xABCDEF0D" name="IC9" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="RT6160AWSC_RT6160AWSC" device=""/>
 <part name="C24" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="PERFECT_0402_CAP_0402" device="" value="10uF"/>
 <part name="C23" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="GRM011R60J152KE01L_2_GRM011R60J152KE01L" device="" value="0.1uF"/>
 <part name="L7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="MLP2016SR47MT0S1_FTC252012SR47MBCA" device="" value="FTC252012SR47MBCA"/>
-<part name="C25" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="PERFECT_0402_CAP_0402" device=""/>
-<part name="C33" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="PERFECT_0402_CAP_0402" device=""/>
+<part name="C25" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="PERFECT_0402_CAP_0402" device="" value="22uF"/>
+<part name="C33" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="PERFECT_0402_CAP_0402" device="" value="22uF"/>
 <part name="R4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0"/>
 <part name="R2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0"/>
 <part name="R17" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="3K3"/>
@@ -3932,7 +3932,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <part name="TP_3V3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="TP_VREG" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="SUPPLY28" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
-<part name="IC3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="BMA423_BMA423" device="" value="BMA421"/>
+<part uuid="0xABCDEF0F" name="IC3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="BMA423_BMA423" device="" value="BMA421"/>
 <part name="R3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0"/>
 <part name="C19" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="NORDIC_NRF_3_CAPACITOR" device="_0201_L" value="100nF"/>
 <part name="SUPPLY29" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
@@ -3945,19 +3945,19 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <part name="TP_3.3V" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="TP_GND" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="SUPPLY32" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
-<part name="J2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TC2030-IDC_TC2030-IDC" device="" value="TC2030-IDC"/>
+<part uuid="0xABCDEF0A" name="J2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TC2030-IDC_TC2030-IDC" device="" value="TC2030-IDC"/>
 <part name="SUPPLY33" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
-<part name="D2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_5_MBR0530" device="" value="MBR0530"/>
-<part name="D4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_5_MBR0530" device="" value="MBR0530"/>
-<part name="D5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_5_MBR0530" device="" value="MBR0530"/>
+<part uuid="0xABCDEF1E" name="D2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_5_MBR0530" device="" value="MBR0530"/>
+<part uuid="0xABCDEF1C" name="D4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_5_MBR0530" device="" value="MBR0530"/>
+<part uuid="0xABCDEF14" name="D5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_5_MBR0530" device="" value="MBR0530"/>
 <part name="C2_EP_DR" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="PERFECT_0402_CAP_0402" device="" value="4.7uF/25V"/>
 <part name="C1_EP_DR" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="PERFECT_0402_CAP_0402" device="" value="10uF"/>
-<part name="L5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_2_744043680" device="IND_4828-WE-TPC_WRE" value="68uH"/>
+<part uuid="0xABCDEF04" name="L5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_2_744043680" device="IND_4828-WE-TPC_WRE" value="68uH"/>
 <part name="SUPPLY34" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY35" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY36" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="R2_EP_DR" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
-<part name="R1_EP_DR" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0.47"/>
+<part uuid="0xABCDEF02" name="R1_EP_DR" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="0.47"/>
 <part name="R_TYPE_SEL" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="2.2"/>
 <part name="Q3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_6_SI1308EDL-T1-GE3" device="" value="SI1308EDL-T1-GE3"/>
 <part name="SJ1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_7_JUMPER_SJ" device=""/>
@@ -3965,7 +3965,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <part name="SUPPLY38" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="R_PWR_EPD" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
 <part name="Q1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_4_ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" device="-DMG2305UX-7" value="20V/4.2A/52mΩ/1.4W"/>
-<part name="J1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="503480-2400_503480-2400" device="" value="503480-2400"/>
+<part uuid="0xABCDEF00" name="J1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="503480-2400_503480-2400" device="" value="503480-2400"/>
 <part name="SUPPLY39" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY40" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="EPD_C2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="PERFECT_0402_CAP_0402" device="" value="1uF/50V"/>
@@ -3980,16 +3980,16 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <part name="EPD_C12" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="PERFECT_0402_CAP_0402" device="" value="1uF/50V"/>
 <part name="SUPPLY41" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY42" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
-<part name="J4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="KH-TYPE-C-16P_KH-TYPE-C-16P" device="" value="KH-TYPE-C-16P"/>
+<part uuid="0xABCDEF06" name="J4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="KH-TYPE-C-16P_KH-TYPE-C-16P" device="" value="KH-TYPE-C-16P"/>
 <part name="SUPPLY43" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY44" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="R2_USB" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="5K1"/>
 <part name="R1_USB" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="5K1"/>
 <part name="SUPPLY45" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY46" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
-<part name="D3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_3_USBLC6-2SC6Y" device="" value="USBLC6-2SC6Y"/>
+<part uuid="0xABCDEF37" name="D3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_3_USBLC6-2SC6Y" device="" value="USBLC6-2SC6Y"/>
 <part name="SUPPLY47" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
-<part name="C43" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="PERFECT_0402_CAP_0402" device=""/>
+<part name="C43" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="PERFECT_0402_CAP_0402" device="" value="4.7uF"/>
 <part name="C42" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="GRM011R60J152KE01L_2_GRM011R60J152KE01L" device="" value="0.1uF"/>
 <part name="SUPPLY48" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="C30" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="GRM011R60J152KE01L_2_GRM011R60J152KE01L" device="" value="1uF"/>
@@ -3998,13 +3998,13 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <part name="SUPPLY49" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY50" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY51" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
-<part name="SW1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" device="SW_EVP-AKE31A_PAN"/>
+<part uuid="0xABCDEF1A" name="SW1" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" device="SW_EVP-AKE31A_PAN"/>
 <part uuid="0xABCDEF14" name="SW2" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" device="SW_EVP-AKE31A_PAN"/>
-<part name="SW3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" device="SW_EVP-AKE31A_PAN"/>
+<part uuid="0xABCDEF18" name="SW3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="2025-10-22_07-23-44_LIBRARY_EVP-AKE31A" device="SW_EVP-AKE31A_PAN"/>
 <part name="R5" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
 <part name="R8" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
 <part name="R7" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="CPF0201D7K68C1_CPF0201D7K68C1" device="" value="10K"/>
-<part name="IC4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="DRV2605YZFR_DRV2605YZFR" device="" value="DRV2605YZFR"/>
+<part uuid="0xABCDEF09" name="IC4" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="DRV2605YZFR_DRV2605YZFR" device="" value="DRV2605YZFR"/>
 <part name="C32" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="GRM011R60J152KE01L_2_GRM011R60J152KE01L" device="" value="1uF"/>
 <part name="SUPPLY52" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY53" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
@@ -4012,7 +4012,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <part name="C34" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="GRM011R60J152KE01L_2_GRM011R60J152KE01L" device="" value="0.1uF"/>
 <part name="TP_OP" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
 <part name="TP_ON" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="HECTOR_WATCH_1_TP" device="TP20R"/>
-<part name="U3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_MAX17048G+T10" device="" value="MAX17048G+T10"/>
+<part uuid="0xABCDEF35" name="U3" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="ESP32_C6_LIBRARY_MAX17048G+T10" device="" value="MAX17048G+T10"/>
 <part name="SUPPLY55" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY56" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
 <part name="SUPPLY57" library="InkTime_v5" library_urn="urn:adsk.wipprod:fs.file:vf.oZRc-dyzRWWJkGORUJnxog" deviceset="TUTORIAL---FUSION-360_GND-BAR" device="" value="GND"/>
@@ -4031,6 +4031,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <text x="17.78" y="180.34" size="5.08" layer="97" align="top-left">DC/DC</text>
 <text x="15.24" y="251.46" size="5.08" layer="97" align="top-left">LiPo Charger</text>
 <text x="15.24" y="76.2" size="5.08" layer="97" align="top-left">IMU</text>
+<text x="317.5" y="73.66" size="6.4516" layer="97">SWD</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="-0.3" y="0.716" smashed="yes">
@@ -4359,8 +4360,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <attribute name="NAME" x="339.09" y="71.12" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="339.09" y="68.58" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="SUPPLY33" gate="G$1" x="317.5" y="50.8" smashed="yes">
-<attribute name="VALUE" x="317.5" y="48.26" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY33" gate="G$1" x="317.5" y="55.88" smashed="yes">
+<attribute name="VALUE" x="317.5" y="53.34" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY25" gate="G$1" x="35.56" y="170.18" smashed="yes" rot="R180">
 <attribute name="VALUE" x="35.56" y="172.72" size="1.778" layer="96" rot="R180" align="bottom-center"/>
@@ -4672,9 +4673,8 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <wire x1="317.5" y1="60.96" x2="317.5" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="58.42" x2="322.58" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="5"/>
-<wire x1="317.5" y1="58.42" x2="317.5" y2="53.34" width="0.1524" layer="91"/>
-<junction x="317.5" y="58.42"/>
 <pinref part="SUPPLY33" gate="G$1" pin="GND"/>
+<junction x="317.5" y="58.42"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="1"/>
@@ -5098,7 +5098,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <pinref part="C20" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$75" class="0">
+<net name="P0.00/XL1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="P0.00/XL1@D2"/>
 <wire x1="182.88" y1="147.32" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
@@ -5109,9 +5109,10 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <wire x1="139.7" y1="195.58" x2="139.7" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="U$20" gate="X$1" pin="1"/>
 <junction x="139.7" y="195.58"/>
+<label x="165.1" y="147.32" size="1.4224" layer="95"/>
 </segment>
 </net>
-<net name="N$59" class="0">
+<net name="P0.01/XL2" class="0">
 <segment>
 <wire x1="139.7" y1="180.34" x2="139.7" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="170.18" x2="139.7" y2="170.18" width="0.1524" layer="91"/>
@@ -5121,6 +5122,7 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/drv2605"&gt; Datasheet &lt;/a&gt;<
 <junction x="139.7" y="170.18"/>
 <wire x1="139.7" y1="144.78" x2="182.88" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="P0.01/XL2@F2"/>
+<label x="165.1" y="144.78" size="1.4224" layer="95"/>
 </segment>
 </net>
 <net name="N$73" class="0">
@@ -6470,6 +6472,52 @@ Driver</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,182.88,149.86,U1,DEC1,N$58,,,"/>
+<approved hash="104,1,182.88,114.3,U1,VDD,3V3,,,"/>
+<approved hash="104,1,243.84,167.64,U1,VDD,3V3,,,"/>
+<approved hash="104,1,208.28,167.64,U1,VSS,GND,,,"/>
+<approved hash="104,1,205.74,167.64,U1,DEC4,DEC4_6,,,"/>
+<approved hash="104,1,200.66,167.64,U1,VDD,3V3,,,"/>
+<approved hash="104,1,182.88,111.76,U1,VDDH,3V3,,,"/>
+<approved hash="104,1,223.52,88.9,U1,VDD,3V3,,,"/>
+<approved hash="104,1,261.62,106.68,U1,VDD,3V3,,,"/>
+<approved hash="104,2,203.2,142.24,U3,CTG,GND,,,"/>
+<approved hash="104,2,203.2,139.7,U3,CELL,VBAT,,,"/>
+<approved hash="104,2,203.2,137.16,U3,VDD,VBAT,,,"/>
+<approved hash="104,2,203.2,134.62,U3,EP,GND,,,"/>
+<approved hash="106,1,182.88,137.16,P0.04,,,,,"/>
+<approved hash="106,1,261.62,134.62,P0.09,,,,,"/>
+<approved hash="106,1,226.06,88.9,P0.19,,,,,"/>
+<approved hash="106,1,228.6,88.9,P0.20,,,,,"/>
+<approved hash="106,1,231.14,88.9,P0.21,,,,,"/>
+<approved hash="106,1,236.22,88.9,P0.23,,,,,"/>
+<approved hash="106,1,238.76,88.9,P0.24,,,,,"/>
+<approved hash="106,1,241.3,88.9,P0.25,,,,,"/>
+<approved hash="106,1,182.88,142.24,P0.26,,,,,"/>
+<approved hash="106,1,182.88,139.7,P0.27,,,,,"/>
+<approved hash="106,1,218.44,167.64,P0.28,,,,,"/>
+<approved hash="106,1,215.9,167.64,P0.29,,,,,"/>
+<approved hash="106,1,213.36,167.64,P0.30,,,,,"/>
+<approved hash="106,1,210.82,167.64,P0.31,,,,,"/>
+<approved hash="106,1,261.62,119.38,P1.03,,,,,"/>
+<approved hash="106,1,261.62,121.92,P1.04,,,,,"/>
+<approved hash="106,1,261.62,124.46,P1.05,,,,,"/>
+<approved hash="106,1,261.62,127,P1.06,,,,,"/>
+<approved hash="106,1,261.62,129.54,P1.07,,,,,"/>
+<approved hash="106,1,182.88,121.92,P1.09,,,,,"/>
+<approved hash="106,1,241.3,167.64,P1.10,,,,,"/>
+<approved hash="106,1,238.76,167.64,P1.11,,,,,"/>
+<approved hash="106,1,233.68,167.64,P1.12,,,,,"/>
+<approved hash="106,1,231.14,167.64,P1.13,,,,,"/>
+<approved hash="106,1,228.6,167.64,P1.14,,,,,"/>
+<approved hash="106,1,226.06,167.64,P1.15,,,,,"/>
+<approved hash="106,1,233.68,88.9,PO.22,,,,,"/>
+<approved hash="106,1,48.26,233.68,SCL/2.4C,,,,,"/>
+<approved hash="106,1,76.2,238.76,SDA/2.4C,,,,,"/>
+<approved hash="113,1,335.28,141.265,U$11,,,,,"/>
+<approved hash="113,2,110.15,180.34,SJ1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
