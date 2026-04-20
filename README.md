@@ -37,16 +37,17 @@ Ceasul este construit in jurul lui **nRF52840**, ales special pentru ca e foarte
 
 ## 3\. Asociere pini
 
-| Grupa de pini | Pini folositi | Justificarea alegerii |
-| :--- | :--- | :--- |
-| **I2C (SDA/SCL)** | **P0.26 / P0.27** | Pozitionati departe de antena pentru a evita interferentele RF. |
-| **Display (SPI)** | **P0.13, P0.14, P0.19** | Rutare scurta catre conectorul FPC, minimizand zgomotul pe magistrala. |
-| **Butoane & Alerte**| **P1.01 - P1.06** | Folosirea Portului 1 pentru a izola intreruperile externe si pentru wake-up eficient. |
-| **Power Gate** | **P0.24** | Controlul hardware al alimentarii display-ului pentru consum zero in standby. |
-| **USB** | **VBUS, D+, D-** | Pini dedicati ai PHY-ului intern nRF52840 pentru comunicatie nativa. |
-
-
-
+| Grupa de pini | Pini folositi | Componenta | Justificarea alegerii / Functia |
+| :--- | :--- | :--- | :--- |
+| **I2C (SDA/SCL)** | **P0.26 / P0.27** | BQ25180, MAX17048, BMA423, DRV2605 | Magistrala comuna; pinii au fost pozitionati departe de zona antenei pentru a evita interferentele RF. |
+| **Display (SPI)** | **P0.13, P0.14, P0.19** | E-Paper Connector | Rutare scurta si directa catre conectorul FPC, minimizand lungimea traseelor de mare viteza. |
+| **Display Control** | **P0.20, P0.21, P0.23** | E-Paper Connector | Pini GPIO pentru semnalele de DC, Reset si Busy. Pinul Busy actioneaza ca intrerupere (INT). |
+| **Power Gate** | **P0.24** | Tranzistor Q1 (Load Switch) | Ofera curent suficient pentru a comuta poarta MOSFET-ului, oprind complet ecranul in standby. |
+| **Butoane & Alerte**| **P1.00 - P1.06** | Butoane externe, Alerte IMU / Baterie | Folosirea exclusiva a Portului 1 pentru semnale lente/intreruperi, izolandu-le de magistralele de date si permitand functia de Wake-Up eficient. |
+| **Haptic Enable** | **P0.25** | DRV2605 (Motor Haptic) | Pin GPIO folosit pentru pornirea/oprirea cipului haptic. |
+| **USB** | **VBUS, D+, D-** | Conector USB-C | Pini hardware dedicati ai PHY-ului intern nRF52840 pentru comunicatie nativa. |
+| **Programare (SWD)** | **SWDIO, SWDCLK, SWO**| Conector Tag-Connect | Pini dedicati din fabrica pentru interfata Serial Wire Debug. |
+| **Ceas (Oscilator)** | **P0.00, P0.01** | Cristal 32.768 kHz | Pini hardware dedicati (LFXO) pentru conectarea cristalului extern necesar functiilor de Low-Power Sleep. |
 
 ## 4\. BOM
 | Qty | Componenta | Designator | Cod JLC / Sursa | Datasheet / Link |
